@@ -1,0 +1,30 @@
+body {
+ background-color: black;
+ color: beige;
+ margin: 0;
+ padding: 0;
+}
+
+.wrap {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.dis {
+  max-width: 500px;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
