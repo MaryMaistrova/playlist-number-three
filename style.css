@@ -72,6 +72,11 @@ li {
   text-align: left;
 }
 
+h4, h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 span {
   font-size: 20px;
   letter-spacing: 2px;
