@@ -49,6 +49,13 @@ h1 {
   letter-spacing: 2px;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+
 img {
   width: 150px;
   height: 150px;
@@ -63,6 +70,13 @@ li {
   padding-bottom: 60px;
 }
 
+@media (max-width: 600px) {
+  li {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .song {
   width: 200px;
   min-width: 200px;
@@ -70,6 +84,13 @@ li {
 
 .review {
   text-align: left;
+}
+
+@media (max-width: 600px) {
+  .review {
+    padding-bottom: 120px;
+    padding-top: 10px;
+  }
 }
 
 h4, h5 {
