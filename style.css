@@ -154,8 +154,7 @@ li {
   .review {
     padding-bottom: 120px;
     padding-top: 10px;
-    max-width: 350px;
-    text-align: center;
+    max-width: 300px;
   }
 }
 
@@ -181,4 +180,5 @@ a {
   color: aquamarine;
   font-size: 32px;
   text-align: center;
+  padding-bottom: 50px;
 }
