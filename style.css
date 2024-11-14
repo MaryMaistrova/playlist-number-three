@@ -166,3 +166,10 @@ span {
     letter-spacing: 1.5px;
   }
 }
+
+a {
+  text-decoration: none;
+  color: aquamarine;
+  font-size: 32px;
+  text-align: center;
+}
