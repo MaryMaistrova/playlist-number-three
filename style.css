@@ -40,6 +40,48 @@ p {
   line-height: 35px;
 }
 
+.rand {
+  display: flex;
+  max-width: 400px;
+  gap: 100px;
+  align-items: center;
+  margin: auto;
+}
+
+.image {
+  width: 200px;
+  height: 250px;
+
+  img {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+  }
+
+  h4, h5 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(2, 56, 72);
+  color: blanchedalmond;
+  transition: 0.5s;
+  font-family:'Funnel Display', Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blanchedalmond;
+  color: rgb(2, 56, 72);
+  transition: 0.5s;
+}
+
 hr {
   border:5px solid lightcyan;
 }
