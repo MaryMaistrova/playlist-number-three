@@ -52,6 +52,8 @@ p {
 @media (max-width: 600px) {
   .rand {
     flex-direction: column;
+    max-height: 700px;
+    min-height: fit-content;
   }
 }
 
